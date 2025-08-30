@@ -11,10 +11,7 @@ The task is to implement the REST service that exposes the /posts endpoint, whic
 - POST request to /posts:
     - creates a new blog post
     - expects a JSON blog post object without the id and without the publishedDate properties as the body payload. You can assume that the given object is always valid.
-    - adds the given post object to the collection of blog posts and assigns a unique integer id to it. The first created post must have id 1, the second one 2, and so on.
-    - if the isPublished property for a post payload object is true, sets the publishedDate to current system time in milliseconds before saving.
-    - the response code is 201, and the response body is the created post object
- 
+   
 
 - GET request to /posts:
     - return a collection of all posts
