@@ -29,6 +29,9 @@ The task is to implement the REST service that exposes the /posts endpoint, whic
     - the response code is 405 because the API does not allow deleting or modifying posts for any id value
  
 You should complete the given project so that it passes all the test cases when running the provided unit tests. The project by default supports the use of the SQLite3 database.
+
+---
+
 ## Environment 
 - Node Version: ^18
 - Default Port: 8000
